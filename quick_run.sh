@@ -1,7 +1,7 @@
 #!/bin/bash
 
 tar zxvf nlpcc_data.tar.gz
-cp ./nlpcc_data/char/* ./all_data
+cp ./nlpcc_data/word/* ./all_data
 cd all_data
 cp dev.txt test.txt
 cd -
